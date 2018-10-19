@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="za.co.amjsolutions.swingy.views.gui.WelcomeFrame">
+  <grid id="27dc6" binding="welcomeFrame" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="12" width="600" height="600"/>
+    </constraints>
+    <properties>
+      <background color="-12894659"/>
+      <doubleBuffered value="false"/>
+      <enabled value="true"/>
+      <foreground color="-1"/>
+      <maximumSize width="600" height="600"/>
+      <minimumSize width="600" height="600"/>
+      <preferredSize width="600" height="600"/>
+    </properties>
+    <border type="etched" title="Welcome" title-justification="2" title-position="1">
+      <font size="14"/>
+      <title-color color="-1"/>
+      <size top="10" left="10" bottom="10" right="10"/>
+      <color color="-4473925"/>
+    </border>
+    <children>
+      <component id="c0185" class="javax.swing.JTextArea" binding="gameRulesTxt">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag top="5" left="5" bottom="5" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-1"/>
+          <columns value="25"/>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font size="13"/>
+          <foreground color="-14397840"/>
+          <lineWrap value="true"/>
+          <margin top="5" left="5" bottom="5" right="5"/>
+          <maximumSize width="300" height="300"/>
+          <minimumSize width="300" height="300"/>
+          <opaque value="true"/>
+          <preferredSize width="300" height="300"/>
+          <requestFocusEnabled value="true"/>
+          <text value="                         An RPG fantasy game&#10;&#10;You have to fight your way against many Villains in order to level up and gain experience points!&#10;&#10;A player can have multiple heroes of different types. To start the game, you have the following options:-&#10;&#10; Options: [ Create | Choose | SWITCH ]&#10;    Create - to create a new Hero&#10;    Choose - to choose a previously created Hero&#10;    SWITCH : to play the game in GUI view"/>
+          <toolTipText value="Displays Swingy game rules"/>
+          <verifyInputWhenFocusTarget value="false"/>
+          <wrapStyleWord value="true"/>
+        </properties>
+      </component>
+      <component id="c48e7" class="javax.swing.JLabel" binding="welcomeLbl">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <maximumSize width="300" height="36"/>
+          <minimumSize width="300" height="36"/>
+          <preferredSize width="300" height="36"/>
+          <text value="SWINGY RPG GAME"/>
+        </properties>
+      </component>
+      <hspacer id="9936e">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <component id="c0446" class="javax.swing.JButton" binding="switchBtn">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-13735788"/>
+          <foreground color="-16777216"/>
+          <text value="Switch to CONSOLE View"/>
+          <toolTipText value="Switches the game view to Console"/>
+        </properties>
+      </component>
+      <hspacer id="7860c">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <component id="7c48c" class="javax.swing.JButton" binding="createHeroBtn">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-13471327"/>
+          <foreground color="-16777216"/>
+          <text value="CREATE your Hero"/>
+          <toolTipText value="Creates a new Hero before gameplay"/>
+        </properties>
+      </component>
+      <component id="1d4b6" class="javax.swing.JButton" binding="selectHeroBtn">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-13207381"/>
+          <foreground color="-16777216"/>
+          <text value="CHOOSE your Hero"/>
+          <toolTipText value="Select a previously created Hero before gameplay"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
